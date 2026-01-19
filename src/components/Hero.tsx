@@ -9,6 +9,18 @@ export default function Hero() {
       {/* Video Background Placeholder */}
       <div className="absolute inset-0 z-0">
          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#050505] z-10" />
+         
+         {/* Video Background */}
+         <video 
+           autoPlay 
+           loop 
+           muted 
+           playsInline 
+           className="w-full h-full object-cover opacity-60"
+         >
+           <source src="/videos/hero-background.mp4" type="video/mp4" />
+         </video> 
+
          {/* Placeholder for video: iridescent dark blue and violet waves */}
          <div className="w-full h-full bg-[radial-gradient(circle_at_50%_50%,_#1a0b2e_0%,_#050505_100%)] opacity-80" />
          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[conic-gradient(from_90deg_at_50%_50%,#000000_0%,#1e1b4b_50%,#000000_100%)] opacity-30 blur-3xl animate-slow-spin" />

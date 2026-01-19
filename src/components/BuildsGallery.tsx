@@ -1,31 +1,36 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const tools = [
   { 
     id: 1, 
     title: "Quantum Interface", 
     category: "App Tools", 
-    description: "Isometric 3D render of a futuristic mobile app interface." 
+    description: "Isometric 3D render of a futuristic mobile app interface.",
+    image: "/images/tool-1.jpg" // Added image path
   },
   { 
     id: 2, 
     title: "Neural Network", 
     category: "Features", 
-    description: "Glowing glass elements floating in a void." 
+    description: "Glowing glass elements floating in a void.",
+    image: "/images/tool-2.jpg"
   },
   { 
     id: 3, 
     title: "Data Stream", 
     category: "App Tools", 
-    description: "Soft bokeh background with high-contrast data visualization." 
+    description: "Soft bokeh background with high-contrast data visualization.",
+    image: "/images/tool-3.jpg"
   },
   { 
     id: 4, 
     title: "Cyber Security", 
     category: "Features", 
-    description: "Secure, encrypted connections visualization." 
+    description: "Secure, encrypted connections visualization.",
+    image: "/images/tool-4.jpg"
   },
 ];
 
@@ -54,6 +59,15 @@ export default function BuildsGallery() {
             >
               {/* Image Placeholder Area */}
               <div className="absolute inset-0 bg-neutral-900 transition-transform duration-700 ease-out group-hover:scale-105">
+                 
+                 {/* Tool Image */}
+                 <Image 
+                   src={tool.image} 
+                   alt={tool.title} 
+                   fill 
+                   className="object-cover opacity-60 group-hover:opacity-40 transition-opacity" 
+                 />
+
                  {/* Gradient placeholder for actual image */}
                  <div className={`w-full h-full opacity-40 bg-gradient-to-br ${
                     tool.id % 2 === 0 ? 'from-purple-900/40 to-blue-900/10' : 'from-blue-900/40 to-purple-900/10'

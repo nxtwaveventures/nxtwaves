@@ -21,6 +21,17 @@ export default function VideoReveal() {
          style={{ width, borderRadius }}
          className="h-[60vh] md:h-[80vh] bg-gray-900 relative overflow-hidden shadow-2xl mx-auto"
        >
+          {/* Reveal Video */}
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="absolute inset-0 w-full h-full object-cover opacity-80"
+          >
+            <source src="/videos/reveal.mp4" type="video/mp4" />
+          </video>
+
           {/* Video Placeholder */}
           <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/20 via-black to-blue-900/20 z-0" />
            
