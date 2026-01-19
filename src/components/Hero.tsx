@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-[#050505]">
+    <section id="home" className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-[#050505]">
       {/* Video Background Placeholder */}
       <div className="absolute inset-0 z-0">
          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#050505] z-10" />

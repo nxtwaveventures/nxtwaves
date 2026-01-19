@@ -36,7 +36,7 @@ const tools = [
 
 export default function BuildsGallery() {
   return (
-    <section className="py-32 px-4 md:px-8 bg-[#050505]">
+    <section id="builds" className="py-32 px-4 md:px-8 bg-[#050505]">
       <div className="max-w-7xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, x: -20 }}

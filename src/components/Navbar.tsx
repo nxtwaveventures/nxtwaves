@@ -7,10 +7,10 @@ export default function Navbar() {
         nxtwaves.in
       </div>
       <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
-         <Link href="#" className="hover:text-white transition-colors">Home</Link>
-         <Link href="#" className="hover:text-white transition-colors">Builds</Link>
-         <Link href="#" className="hover:text-white transition-colors">Features</Link>
-         <Link href="#" className="hover:text-white transition-colors">Contact</Link>
+         <Link href="#home" className="hover:text-white transition-colors">Home</Link>
+         <Link href="#builds" className="hover:text-white transition-colors">Builds</Link>
+         <Link href="#features" className="hover:text-white transition-colors">Features</Link>
+         <Link href="#contact" className="hover:text-white transition-colors">Contact</Link>
       </div>
     </nav>
   );

@@ -16,7 +16,7 @@ export default function VideoReveal() {
   const borderRadius = useTransform(scrollYProgress, [0.2, 0.6], ["24px", "0px"]);
 
   return (
-    <div ref={ref} className="bg-[#050505] py-32 flex justify-center overflow-hidden">
+    <div id="features" ref={ref} className="bg-[#050505] py-32 flex justify-center overflow-hidden">
        <motion.div 
          style={{ width, borderRadius }}
          className="h-[60vh] md:h-[80vh] bg-gray-900 relative overflow-hidden shadow-2xl mx-auto"
