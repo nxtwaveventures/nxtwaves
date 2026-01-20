@@ -17,13 +17,12 @@
     Scaffolded using npx create-next-app.
 
 - [x] Customize the Project
-	<!--
-	Verify that all previous steps have been completed successfully and you have marked the step as completed.
-	Develop a plan to modify codebase according to user requirements.
-	Apply modifications using appropriate tools and user-provided references.
-	Skip this step for "Hello World" projects.
-	-->
-    Enhanced "Builds" section with specific products and linked vibrant images.
+    Enhanced "Builds" section with specific products (Hotel Drop Bot, mapHire etc.).
+    Implemented "DeepMind" aesthetic:
+    - Hero: Relaxing AI nature wave video background.
+    - Product Cards: White background, vertical 3:4 aspect ratio, clean typography, minimalist abstract 3D images.
+    - Branding: Removed default Vercel favicons.
+
 
 - [x] Install Required Extensions
 	<!-- ONLY install extensions provided mentioned in the get_project_setup_info. Skip this step otherwise and mark as completed. -->
