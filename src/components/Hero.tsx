@@ -16,15 +16,14 @@ export default function Hero() {
            loop 
            muted 
            playsInline 
-           poster="/images/tool-2.jpg"
-           className="w-full h-full object-cover opacity-60"
+           poster="/images/waves-poster.jpg"
+           className="w-full h-full object-cover opacity-80"
          >
-           <source src="/videos/hero-background.mp4" type="video/mp4" />
+           <source src="/videos/relaxing-waves.mp4" type="video/mp4" />
          </video> 
 
-         {/* Placeholder for video: iridescent dark blue and violet waves */}
-         <div className="w-full h-full bg-[radial-gradient(circle_at_50%_50%,_#1a0b2e_0%,_#050505_100%)] opacity-80" />
-         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[conic-gradient(from_90deg_at_50%_50%,#000000_0%,#1e1b4b_50%,#000000_100%)] opacity-30 blur-3xl animate-slow-spin" />
+         {/* Overlay for legibility */}
+         <div className="w-full h-full bg-black/40 absolute inset-0" />
       </div>
       
       <div className="relative z-20 text-center px-4 max-w-5xl mx-auto">

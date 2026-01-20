@@ -10,8 +10,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = products.find((p) => p.slug === params.slug);
+export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const product = products.find((p) => p.slug === slug);
 
   if (!product) {
     notFound();
@@ -31,10 +32,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column: Visuals */}
           <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl border border-white/10 bg-neutral-900">
-             {/* Placeholder for Product Video/Image */}
-             <div className="absolute inset-0 bg-neutral-900 animate-pulse flex items-center justify-center">
-                 <span className="text-gray-600 font-mono text-sm">Product Demo Video Placeholder</span>
-             </div>
+             <Image
+                src={product.image}
+                alt={product.title}
+                fill
+                className="object-cover"
+                priority
+             />
              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           </div>
 

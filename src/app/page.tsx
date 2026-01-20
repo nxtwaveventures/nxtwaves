@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import VideoReveal from "@/components/VideoReveal";
 import BuildsGallery from "@/components/BuildsGallery";
 import Contact from "@/components/Contact";
 
@@ -9,7 +8,6 @@ export default function Home() {
     <main className="min-h-screen bg-[#050505] text-white overflow-x-hidden selection:bg-blue-500/30">
       <Navbar />
       <Hero />
-      <VideoReveal />
       <BuildsGallery />
       <Contact />
       

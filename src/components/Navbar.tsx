@@ -10,17 +10,16 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#050505]/50 backdrop-blur-lg border-b border-white/5">
-      <div className="flex items-center justify-between px-6 py-4 md:px-8">
-        <div className="text-xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-          nxtwaves.in
-        </div>
+      <div className="flex items-center justify-between px-6 py-4 md:px-12 max-w-7xl mx-auto w-full">
+        <Link href="/" className="text-xl font-medium tracking-tighter text-white hover:text-blue-300 transition-colors">
+          NxtWaves
+        </Link>
         
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-400">
-           <Link href="#home" className="hover:text-white transition-colors">Home</Link>
-           <Link href="#builds" className="hover:text-white transition-colors">Builds</Link>
-           <Link href="#features" className="hover:text-white transition-colors">Features</Link>
-           <Link href="#contact" className="hover:text-white transition-colors">Contact</Link>
+        <div className="hidden md:flex items-center space-x-8 text-sm font-medium">
+           <Link href="#builds" className="text-white hover:text-blue-300 transition-colors">Technologies</Link>
+           <Link href="#about" className="text-white hover:text-blue-300 transition-colors">About</Link>
+           <Link href="#contact" className="text-white hover:text-blue-300 transition-colors">Contact</Link>
         </div>
 
         {/* Mobile Menu Button */}
