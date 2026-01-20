@@ -38,25 +38,5 @@ export const products = [
     slug: "untold-chemistry",
     image: "/images/card-4.jpg",
     details: "A multimedia storytelling experiment that combines traditional prose with immersive audio soundscapes. Readers can scan QR codes within the physical book or tap sections in the digital version to unlock character podcasts, atmospheric music, and hidden visual snapshots, creating a multi-sensory narrative layer."
-  },
-  { 
-    id: 4, 
-    title: "Medtech Innovations", 
-    category: "Healthcare", 
-    description: "Healthcare technology solutions.",
-    span: "md:col-span-1",
-    slug: "medtech-innovations",
-    image: "/images/medtech.jpg",
-    details: "A suite of IoT-enabled cutting-edge medical devices and software designed to streamline patient monitoring. From remote vital tracking to AI-assisted diagnostic tools, Medtech Innovations bridges the gap between clinical care and home health, ensuring better outcomes and reduced hospital readmissions."
-  },
-  { 
-    id: 6, 
-    title: "Shopify Retail App", 
-    category: "Retail Tool", 
-    description: "Tool for retailers to sell faster and save more.",
-    span: "md:col-span-1",
-    slug: "shopify-retail-app",
-    image: "/images/retail.jpg",
-    details: "A custom Shopify App extension designed for high-volume retailers. This tool optimizes inventory management, automates abandoned cart recovery via WhatsApp, and provides deep analytics on customer purchasing behavior. It empowers store owners to scale operations with data-driven insights."
-  },
+  }
 ];

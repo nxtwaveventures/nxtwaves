@@ -31,7 +31,7 @@ export default function BuildsGallery() {
           viewport={{ once: true }}
           className="text-4xl md:text-6xl font-medium mb-12 text-black tracking-tighter ml-4"
         >
-          Featured innovations
+          History of Innovation
         </motion.h2>
         
         <motion.div 
