@@ -2,57 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-
-const products = [
-  { 
-    id: 1, 
-    title: "Hotel Drop Bot", 
-    category: "Telegram Bot", 
-    description: "Telegram bot for tracking hotel prices (Agoda partner).",
-    span: "md:col-span-2",
-    slug: "hotel-drop-bot"
-  },
-  { 
-    id: 2, 
-    title: "mapHire", 
-    category: "Platform", 
-    description: "Interactive hiring and talent mapping platform.",
-    span: "md:col-span-1",
-    slug: "maphire"
-  },
-  { 
-    id: 3, 
-    title: "etoffe", 
-    category: "E-commerce", 
-    description: "Digital Saree Catalogue with AI-generated visuals.",
-    span: "md:col-span-1",
-    slug: "etoffe"
-  },
-  { 
-    id: 5, 
-    title: "Untold Chemistry", 
-    category: "Interactive Book", 
-    description: "An interactive book experience with podcasts and snapshots.",
-    span: "md:col-span-2",
-    slug: "untold-chemistry"
-  },
-  { 
-    id: 4, 
-    title: "Medtech Innovations", 
-    category: "Healthcare", 
-    description: "Healthcare technology solutions.",
-    span: "md:col-span-1",
-    slug: "medtech-innovations"
-  },
-  { 
-    id: 6, 
-    title: "Shopify Retail App", 
-    category: "Retail Tool", 
-    description: "Tool for retailers to sell faster and save more.",
-    span: "md:col-span-1",
-    slug: "shopify-retail-app"
-  },
-];
+import { products } from "@/data/products";
 
 const container = {
   hidden: { opacity: 0 },
