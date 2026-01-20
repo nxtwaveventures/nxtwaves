@@ -9,7 +9,20 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "NxtWaves - The Next Wave of Innovation",
-  description: "A high-end, immersive innovation hub.",
+  description: "A high-end, immersive innovation hub for building the future.",
+  openGraph: {
+    title: "NxtWaves - The Next Wave of Innovation",
+    description: "A high-end, immersive innovation hub for building the future.",
+    url: "https://nxtwaves.in",
+    siteName: "NxtWaves",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NxtWaves - The Next Wave of Innovation",
+    description: "A high-end, immersive innovation hub for building the future.",
+  },
 };
 
 export default function RootLayout({

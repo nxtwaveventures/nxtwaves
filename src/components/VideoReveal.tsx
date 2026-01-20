@@ -27,6 +27,7 @@ export default function VideoReveal() {
             loop 
             muted 
             playsInline 
+            poster="/images/tool-1.jpg"
             className="absolute inset-0 w-full h-full object-cover opacity-80"
           >
             <source src="/videos/reveal.mp4" type="video/mp4" />

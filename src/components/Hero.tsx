@@ -16,6 +16,7 @@ export default function Hero() {
            loop 
            muted 
            playsInline 
+           poster="/images/tool-2.jpg"
            className="w-full h-full object-cover opacity-60"
          >
            <source src="/videos/hero-background.mp4" type="video/mp4" />
