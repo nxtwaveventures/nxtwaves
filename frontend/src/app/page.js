@@ -15,7 +15,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:8000/api/metamorphosis", {
+      const response = await fetch("/api/metamorphosis", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
