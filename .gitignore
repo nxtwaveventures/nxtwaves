@@ -1,0 +1,21 @@
+# Venv
+backend/venv/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+build/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+vault/compliance/sgi_provenance.log
+backend/backend.log
+frontend/frontend.log
