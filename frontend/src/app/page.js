@@ -43,8 +43,8 @@ export default function Home() {
           <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-4 tracking-tight drop-shadow-md">
             Butterfly Face <span className="inline-block animate-bounce">🦋</span>
           </h1>
-          <p className="text-lg text-blue-100/80 font-medium">
-            The Metamorphosis Engine. Drop your raw seed below.
+          <p className="text-lg sm:text-xl text-blue-100/90 font-medium max-w-2xl mx-auto leading-relaxed">
+            The World's Premier AI Data Refinery. Drop your raw seed below and let the Metamorphosis Engine synthesize the future of your AI agents.
           </p>
         </div>
 
